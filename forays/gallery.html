@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="forays_style.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+  
+
+      <!---------------     Navbar       -------------------->
+       
+
+      <div class="navbar-fixed">
+        <img src="images\forayslogo.jpeg" alt='forays2020' height=80px' class='logo'>
+        <nav style='background-color:#DC143C'>
+          <div class="container">
+            <div class="navbar-wrapper">
+              <a href="index.html" class="brand-logo"><span style='font-weight:bold; color:white; '>forays</span></a>
+              <a href="#" data-target='mobile-navbar' class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+
+
+            <!----   links   ----->
+
+              <ul class="right hide-on-med-and-down" style='font-weight:bold'>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="college.html">College</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      
+
+      <ul class="sidenav" id='mobile-navbar'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="college.html">College</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="sponsers.html">Sponsors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+
+      
+      <div class="container gal">
+          <div class="row">
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img2.jpg" alt="" class="materialboxed responsive-img">
+            </div>  
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img3.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img4.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img5.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img6.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img7.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img8.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img9.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img10.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img11.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img12.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img13.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img14.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img15.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+                <img src="images/img16.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+            <div class="col sm12 m3 l3 gal_img">
+              <img src="images/img17.jpg" alt="" class="materialboxed responsive-img">
+          </div>
+           </div>
+      </div>
+    
+
+
+
+
+      <!--JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+
+        // Navbar
+
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+
+        var mb = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(mb,{
+
+      })
+      </script>
+    </body>
+ </html>

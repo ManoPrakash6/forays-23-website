@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="forays_style.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+  
+
+      <!---------------     Navbar       -------------------->
+       
+
+      <div class="navbar-fixed">
+        <img src="images\forayslogo.jpeg" alt='forays2020' height=80px' class='logo'>
+        <nav style='background-color:#DC143C'>
+          <div class="container">
+            <div class="navbar-wrapper">
+              <a href="index.html" class="brand-logo"><span style='font-weight:bold; color:white; '>forays</span></a>
+              <a href="#" data-target='mobile-navbar' class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+
+
+            <!----   links   ----->
+
+              <ul class="right hide-on-med-and-down" style='font-weight:bold'>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="college.html">College</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      
+
+      <ul class="sidenav" id='mobile-navbar'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="college.html">College</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="sponsers.html">Sponsors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+
+      
+      <div style='text-align:center; padding-top:50px'>
+        <h5>Results will be visible as soon as it is declared...</h5>
+      </div>
+
+
+
+      <!--JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+
+        // Navbar
+
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+
+        $(document).ready(function(){
+        $('.modal').modal();
+        });
+
+      </script>
+    </body>
+ </html>
