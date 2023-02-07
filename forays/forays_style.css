@@ -1,0 +1,123 @@
+h3{
+    color:white;
+  }
+
+.logo{
+    z-index:1;
+    position: fixed;
+    top:10px;
+    left:110px;
+    border:4px solid #DC143C;
+}
+
+.slides img{
+    opacity:1;
+}
+
+.bethere{
+    background-color:#DC143C;
+    color:white;
+    position: relative;
+    top:-150px;
+    text-align:center;
+    z-index:2;
+    padding:15px;
+    font-weight:bold;
+    font-size:1.4em;
+    border-left:50px solid white;
+}
+
+.intro, .contact, .spc_lec{
+    border-top:5px solid #F5F5F5;
+}
+
+.intro{padding:50px}
+.contact, .spc_lec, .events{padding:20px 100px;}
+
+.intro-heading{
+    font-weight:bold;
+    font-size:1.5em;
+    background-color:#F5F5F5;
+    padding:5px 15px;
+    color:#483D8B;
+    border-left:10px solid #483D8B;
+    margin-bottom:20px;
+}
+
+.contact-heading, .contact-content-heading, .spc_lec_heading{
+    color:#483D8B;
+    text-align:center;
+}
+
+.contact-heading{font-size:1.5em}
+
+.contact-content-heading{background-color:#F5F5F5; padding:10px;}
+
+.contact-content-body{border:2px solid #F5F5F5; padding:20px;}
+.spc_lec_col{height:154px; background-color: #F5F5F5; border:2px solid white}
+.spc_lec_col_image{margin:10px 0px}
+.spc_lec_col_text{margin:20px}
+.spc_lec_heading{padding-bottom:20px}
+
+.event-discription{border-right:4px solid #F5F5F5; text-align:justify;}
+.event-name{text-align:center;padding: 10px; background-color:#F5F5F5; color:#483D8B}
+.event-eligibility b{color:#483D8B}
+.event-discription b{color:#483D8B}
+
+#mobile-navbar{background-color:#483D8B; padding-top:50px;}
+#mobile-navbar a{color:white;font-size:1.1em}
+
+.Schedule {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .Schedule td, .Schedule th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .Schedule tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .Schedule tr:hover {background-color: #ddd;}
+  
+  .Schedule th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #483D8B;
+    color: white;
+  }
+
+.intro b{color:#483D8B}
+.sponsrs h5{color:red; text-align:center; margin-top:50px;}
+.sponsrs .spns_img{margin-top:20px; text-align:center}
+.sponsrs .spns_cnt{font-weight:bold; padding:20px 0px 0px 30px;}
+.gal{margin-top:50px;}
+.gal_img{margin-top:10px}
+.abstract_heading{color:white; background-color:teal; text-align:center;padding:10px 0px 10px 0px; margin:0px}
+.abstract_content{padding:20px;}
+.ttl{float:left}
+.abs{margin-left:5px}
+.footer{margin:0px; color:white; background-color:#DC143C; width:100%; text-align:center; padding:10px 0px; font-size:.8em}
+@media screen and (max-width: 480px){
+    .bethere {font-size:1.1em; border-left:5px solid white;}
+    .logo{top:70px; left:20px; border:2px solid #DC143C; display:none}
+    .intro, .contact{padding:30px 10px;}
+    .intro-content{font-size:1.1em; padding-bottom:50px;}
+    .contact-content, .spc_lec_col{width:100%; font-size:1.1em;text-align:justify;} 
+    .spc_lec{padding:20px 5px}
+    .spc_lec_col_text{margin:20px 5px} 
+    .spc_lec_heading{padding-bottom:20px; font-size:1.3em} 
+    .events{padding:20px 5px}
+    .event-name{font-size:1.2em; color:#483D8B}
+    .event-discription{font-size:1.1em;}
+    .sponsrs h5{color:red; text-align:center; margin-top:20px;}
+    .sponsrs .spns_img{margin-top:10px;}
+    .sponsrs img{width:100%}
+    .sponsrs .spns_cnt{padding:0px 0px 10px 10px; margin-top:10px}
+    .gal{margin-top:20px}
+    .gal_img{margin-top:10px}
+    .abstract{margin:5px;width:97%}
+}

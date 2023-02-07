@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="forays_style.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+  
+
+      <!---------------     Navbar       -------------------->
+       
+
+      <div class="navbar-fixed">
+        <img src="images/forayslogo.jpeg" alt='forays2020' height=80px' class='logo'>
+        <nav style='background-color:#DC143C'>
+          <div class="container">
+            <div class="navbar-wrapper">
+              <a href="index.html" class="brand-logo"><span style='font-weight:bold; color:white; '>forays</span></a>
+              <a href="#" data-target='mobile-navbar' class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+
+
+            <!----   links   ----->
+
+              <ul class="right hide-on-med-and-down" style='font-weight:bold'>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="college.html">College</a></li>
+                <li><a href="school.html">School</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="results.html">Results</a></li>
+                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      
+
+      <ul class="sidenav" id='mobile-navbar'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="college.html">College</a></li>
+        <li><a href="school.html">School</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="sponsers.html">Sponsors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+
+      
+    <!-----------------  contact scection ---------------->
+
+    <div class="row contact">
+        <div class="contact-heading">
+            <b>Contact Info</b>
+        </div>
+        <div style='margin-top:50px;'>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                   <b>Chairman</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Prof. Sundar S </b><br>
+                    Department of Mathematics,<br>
+                    IIT Madras<br>
+                    Chennai - 600036<br>
+                    Tel: +91 44 22574600<br>
+                    Email: slnt@iitm.ac.in
+                </div>
+            </div>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                    <b>Faculty Coordinator</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Dr. Ramesh Kasilingam</b><br>
+                    Department of Mathematics,<br>
+                    IIT Madras<br>
+                    Chennai - 600036<br>
+                    Tel: +91 44 22574647<br>
+                    Email: rameshk@iitm.ac.in
+                </div>
+            </div>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                    <b>Faculty Coordinator</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Dr. Aprameyan P</b> <br>
+                    Department of Mathematics,<br>
+                    IIT Madras <br>
+                    Chennai - 600036 <br>
+                    Tel:+91 44 22574645 <br>
+                    Email: aprameyan@iitm.ac.in <br>
+                </div>
+            </div>  
+        </div>
+
+    </div>
+
+    <div class="row contact">
+        <div class="contact-heading">
+            <b>Student Coordinators</b>
+        </div>
+        <div style='margin-top:50px;'>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                   <b>General Secretary</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Sagnik Das</b><br>
+                    Department of Mathematics,<br>
+                    IIT Madras<br>
+                    Chennai - 600036 <br>
+                    Contact : 8348387847<br>
+                    Email Id: ma18c030@smail.iitm.ac.in<br>
+                </div>
+            </div>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                    <b>Joint Secretary</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Rajeev Ranjan Shaw</b><br>
+                    Department of Mathematics,<br>
+                    IIT Madras<br>
+                    Chennai - 600036<br>
+                    Contact : 9709082647<br>
+                    Email Id: ma18m017@smail.iitm.ac.in
+                </div>
+            </div>
+            <div class="col sm12 m6 l4 contact-content">
+                <div class="contact-content-heading">
+                    <b>Joint Secretary</b>
+                </div>
+                <div class="contact-content-body">
+                    <b>Bidhan Paul</b> <br>
+                    Department of Mathematics,<br>
+                    IIT Madras <br>
+                    Chennai - 600036 <br>
+                    Contact : 8670808802<br>
+                    Email Id: ma19d003@smail.iitm.ac.in <br>
+                </div>
+            </div>  
+        </div>
+
+    </div>
+
+    
+
+
+
+      <!--JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script>
+
+        // Navbar
+
+        const sideNav = document.querySelector('.sidenav');
+        M.Sidenav.init(sideNav, {});
+      </script>
+    </body>
+ </html>
