@@ -15,7 +15,19 @@ h3{
     opacity:1;
 }
 
-.bethere_date{
+.bethere_college_date{
+  background-color:#202d40;
+  color:white;
+  position: relative;
+  top:-200px;
+  text-align:center;
+  z-index:2;
+  padding:15px;
+  font-weight:bold;
+  font-size:1.4em;
+}
+
+.bethere_school_date{
   background-color:#202d40;
   color:white;
   position: relative;
@@ -25,7 +37,6 @@ h3{
   padding:15px;
   font-weight:bold;
   font-size:1.4em;
-  border-left:50px solid white;
 }
 
 
@@ -33,13 +44,12 @@ h3{
     background-color:#202d40;
     color:white;
     position: relative;
-    top:-100px;
+    top:-110px;
     text-align:center;
     z-index:2;
     padding:15px;
     font-weight:bold;
     font-size:1.4em;
-    border-left:50px solid white;
 }
 
 .intro, .contact, .spc_lec{
@@ -117,7 +127,7 @@ h3{
 .abs{margin-left:5px}
 .footer{margin:0px; color:white; background-color:#DC143C; width:100%; text-align:center; padding:10px 0px; font-size:.8em}
 @media screen and (max-width: 480px){
-    .bethere {font-size:1.1em; border-left:5px solid white;}
+    .bethere {font-size:1.1em;}
     .logo{top:70px; left:20px; border:2px solid #DC143C; display:none}
     .intro, .contact{padding:30px 10px;}
     .intro-content{font-size:1.1em; padding-bottom:50px;}
@@ -135,4 +145,13 @@ h3{
     .gal{margin-top:20px}
     .gal_img{margin-top:10px}
     .abstract{margin:5px;width:97%}
+}
+
+.roboto-font-white{
+  font-family: Roboto, sans-serif;
+  color:white;
+}
+
+.roboto-font{
+  font-family: Roboto, sans-serif;
 }
