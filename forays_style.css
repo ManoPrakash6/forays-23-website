@@ -7,18 +7,33 @@ h3{
     position: fixed;
     top:10px;
     left:110px;
-    border:4px solid #DC143C;
+    border:4px solid #202d40;
+    background-color: #202d40;
 }
 
 .slides img{
     opacity:1;
 }
 
+.bethere_date{
+  background-color:#202d40;
+  color:white;
+  position: relative;
+  top:-150px;
+  text-align:center;
+  z-index:2;
+  padding:15px;
+  font-weight:bold;
+  font-size:1.4em;
+  border-left:50px solid white;
+}
+
+
 .bethere{
-    background-color:#DC143C;
+    background-color:#202d40;
     color:white;
     position: relative;
-    top:-150px;
+    top:-100px;
     text-align:center;
     z-index:2;
     padding:15px;
