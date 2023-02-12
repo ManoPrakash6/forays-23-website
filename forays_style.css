@@ -89,7 +89,7 @@ h3{
 .event-eligibility b{color:#483D8B}
 .event-discription b{color:#483D8B}
 
-#mobile-navbar{background-color:#483D8B; padding-top:50px;}
+#mobile-navbar{background-color:#202d40; padding-top:50px;}
 #mobile-navbar a{color:white;font-size:1.1em}
 
 .Schedule {
@@ -128,7 +128,7 @@ h3{
 .footer{margin:0px; color:white; background-color:#DC143C; width:100%; text-align:center; padding:10px 0px; font-size:.8em}
 @media screen and (max-width: 480px){
     .bethere {font-size:1.1em;}
-    .logo{top:70px; left:20px; border:2px solid #DC143C; display:none}
+    .logo{top:70px; left:20px; border:2px solid #202d40; display:none}
     .intro, .contact{padding:30px 10px;}
     .intro-content{font-size:1.1em; padding-bottom:50px;}
     .contact-content, .spc_lec_col{width:100%; font-size:1.1em;text-align:justify;} 
