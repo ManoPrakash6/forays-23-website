@@ -116,7 +116,7 @@ h3{
   }
 
 .intro b{color:#483D8B}
-.sponsrs h5{color:red; text-align:center; margin-top:50px;}
+.sponsrs h5{color: #202d40; text-align:center; margin-top:50px;}
 .sponsrs .spns_img{margin-top:20px; text-align:center}
 .sponsrs .spns_cnt{font-weight:bold; padding:20px 0px 0px 30px;}
 .gal{margin-top:50px;}
@@ -138,7 +138,7 @@ h3{
     .events{padding:20px 5px}
     .event-name{font-size:1.2em; color:#483D8B}
     .event-discription{font-size:1.1em;}
-    .sponsrs h5{color:red; text-align:center; margin-top:20px;}
+    .sponsrs h5{color:#202d40; text-align:center; margin-top:20px;}
     .sponsrs .spns_img{margin-top:10px;}
     .sponsrs img{width:100%}
     .sponsrs .spns_cnt{padding:0px 0px 10px 10px; margin-top:10px}
