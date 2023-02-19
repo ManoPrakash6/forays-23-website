@@ -3,13 +3,19 @@
     <head>
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <!--Import materialize.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" href="forays_style.css">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- add title -->
+        <title>Welcome to Forays'23</title>
+        <!-- add icon link -->
+        <link rel = "icon" href = "images/foray23_logo.png" type = "image/x-icon">
     </head>
-
     <body>
 
   
@@ -18,25 +24,28 @@
        
 
       <div class="navbar-fixed">
-        <img src="images/forayslogo.jpeg" alt='forays2020' height=80px' class='logo'>
-        <nav style='background-color:#DC143C'>
+        <a href="index.html">
+          <img src="images/foray23_logo.png" alt='forays2023' height=50px class='logo'>
+        </a>
+        <nav style='background-color:#202d40'>
           <div class="container">
             <div class="navbar-wrapper">
-              <a href="index.html" class="brand-logo"><span style='font-weight:bold; color:white; '>forays</span></a>
+              <a href="index.html" class="brand-logo">
+                <span class="roboto-font-white" style="font-weight: bold;">FORAYS</span>
+              </a>
               <a href="#" data-target='mobile-navbar' class="sidenav-trigger">
                 <i class="material-icons">menu</i>
               </a>
 
+              <!----   links   ----->
 
-            <!----   links   ----->
-
-              <ul class="right hide-on-med-and-down" style='font-weight:bold'>
+              <ul class="right hide-on-med-and-down roboto-font-white" style='font-weight:bold'>
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="college.html">College</a></li>
                 <li><a href="school.html">School</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="results.html">Results</a></li>
-                <li><a href="sponsers.html">Sponsors</a></li>
+                <li><a href="sponsors.html">Sponsors</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><i class="fab fa-facebook-square"></i></li>
               </ul>
@@ -47,14 +56,14 @@
 
       
 
-      <ul class="sidenav" id='mobile-navbar'>
+      <ul class="sidenav roboto-font-white" id='mobile-navbar'>
         <li><a href="index.html">Home</a></li>
         <li><a href="schedule.html">Schedule</a></li>
         <li><a href="college.html">College</a></li>
         <li><a href="school.html">School</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="results.html">Results</a></li>
-        <li><a href="sponsers.html">Sponsors</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
 
@@ -67,100 +76,114 @@
           <li>
             <img src="images/img1.jpg"> 
             <div class="caption center-align">
-              <h3>Welcome to Forays-2020</h3>
+              <h3>Welcome to Forays-2023</h3>
               <h5 class="light grey-text text-lighten-3">Department of Mathematics, IIT Madras</h5>
             </div>
           </li>
           <li>
-            <img src="images/sch_img.jpg" > 
+            <img src="images/clg_img.jpg"> 
             <div class="caption left-align">
-              <h3>School Day</h3>
-              <h5 class="light grey-text text-lighten-3">Various Competitions For School Students</h5>
+              <h3>College Day</h3>
+              <h5 class="light grey-text text-lighten-3" style="font-weight: bold;">Various Competitions For College Students</h5>
             </div>
           </li>
           <li>
-            <img src="images/clg_img.jpg"> 
+            <img src="images/sch_img.jpg" > 
             <div class="caption right-align">
-              <h3>College Day</h3>
-              <h5 class="light grey-text text-lighten-3">Various Competitions For College Students</h5>
+              <h3>School Day</h3>
+              <h5 class="light grey-text text-lighten-3" style="font-weight: bold;">Various Competitions For School Students</h5>
             </div>
           </li>
           <li>
             <img src="images/gst_img.jpg"> 
             <div class="caption center-align">
               <h3>Special Lectures</h3>
-              <h5 class="light grey-text text-lighten-3">Special lectures by Renowned Scholars</h5>
+              <h5 class="light grey-text text-lighten-3" style="font-weight: bold;">Special lectures by Renowned Scholars</h5>
             </div>
           </li>
         </ul>
         <div style='text-align:center'>
-          <span class="bethere">
+          <span class="bethere_college_date roboto-font-white">
+            February 25, 2023 (College Day)
+          </span>
+        </div>
+        <div style='text-align:center'>
+          <span class="bethere_school_date roboto-font-white">
+            February 26, 2023 (School Day)
+          </span>
+        </div>
+        <div style='text-align:center'>
+          <span class="bethere roboto-font-white">
              Department of Mathematics, IIT Madras
           </span>
         </div>
       </div>
 
 
-      <div class="intro" style='border-top:4px solid #DC143C;' align='justify'>
-        <div class="intro-heading">
-          About Forays-2020
+      <div class="intro" style='border-top:4px solid #0B1B2C;' align='justify'>
+        <div class="intro-heading roboto-font">
+          About Forays-2023
         </div>
-        <div class="intro-content">
-          &emsp; &emsp; <b>"Maths is rocking the world"</b> - So goes the new age adage and FORAYS,
-           the annual mathematics festival at IIT Madras is testimony to it. FORAYS is a manifestation 
-           of mathematical erudition of the highest order; a test of intellect and imagination; 
-           a provocative game of mathematical techniques - from guessing to counting! FORAYS is
-            indeed a tryst with maths.
-The Department of Mathematics has been 
-successful in bringing together the brightest young minds every year for a mathematical fiesta. 
-Brimming with vigour and innovation, FORAYS 2020 aspires to take this success to new heights. <br>
+        <div class="intro-content roboto-font">
+          &emsp; &emsp;<b>"Maths is rocking the world"</b> - So goes the new age adage and FORAYS,
+          the annual mathematics festival at IIT Madras is testimony to it. FORAYS is a manifestation 
+          of mathematical erudition of the highest order; a test of intellect and imagination; 
+          a provocative game of mathematical techniques - from guessing to counting! FORAYS is
+          indeed a tryst with maths.The Department of Mathematics has been successful in bringing together
+          the brightest young minds every year for a mathematical fiesta. Brimming with vigour and innovation,
+          FORAYS 2023 aspires to take this success to new heights.
+          <br><br>
           &emsp; &emsp;<b>So join us for two days filled with mathematical adventures
-             in the form of fun events, lectures, and game stalls.</b>
-
+          in the form of fun events, lectures, and game stalls.</b>
         </div>
       </div>
 
-
+    <!-------------------  Forays'23 Poster Section ------------------------------>
+    <div class="row intro" align='center'>
+      <div class="col s12 m12 l12">
+        <div class="intro-heading">
+          Click <a href="images/poster/forays_poster.png" target="_blank">Here</a> for Forays'23 Poster
+        </div>
+      </div>
+    </div>
 
     <!-------------------   General Rule Section ------------------------------>
 
     <div class="row intro" align='justify'>
       <div class="col s12 m12 l12">
-           <div class="intro-heading">
+          <div class="intro-heading">
             Rules and Regulations for Registration 
-           </div>
-           <div class="intro-content">
-            <b>1.</b> Due to huge demand for our events at Forays 2020 we are compelled to limit the number of
-             participants in each event. We will follow FIRST-COME-FIRST-SERVE basis for registration. So all the
-             participants are asked to register as soon as possible. <br>
-             <b>2.</b> Registration will be considered to be incomplete till the payment of the registration fee.<br>
-             <b>3.</b> Due to the limited availability of spots, online registration is strongly encouraged. 
-             However, on-the-spot registration facility will also 
-            be there. <br>
-            <b>4.</b> Online payment of the registration fee can be done by any of these methods- <br> 
-            <b>For payment: <br>
-               Google-Pay/Paytm/Phone Pe: 8348387847 <br>
-                UPI ID: sagnikd4@oksbi <br>
-                 SBI account no.37814792894 <br>
-                  IFSC Code: SBIN0000057 <br>
+          </div>
+          <div class="intro-content">
+            <b>1.</b> Due to huge demand for our events, we are compelled to limit the number of
+            participants in each event. We will follow FIRST-COME-FIRST-SERVE basis for registration. So all the
+            participants are asked to register as soon as possible. <br>
+            <b>2.</b> Registration will be considered to be incomplete till the payment of the registration fee.<br>
+            <b>3.</b> Online payment of the registration fee can be done by any of these methods: <br><br> 
+            <b>For Payment: <br>
+              PhonePe Number: 8975966125 <br>
+              UPI ID: 8975966125@axl <br>
+              Banking Name: Siddhi Swapnil Pitale<br>
+              SBI account Number: 41026583102 <br>
+              IFSC Code: SBIN0006319 <br><br>
+              PhonePe QR Code: <br><img src="images/PhonePe_QR_code.png" alt='Forays2023_Registration_QR_Code' height=200px><br><br>
             </b>
- 
-            <b>5.</b> Participants will have to show the proof of payment (e.g. screenshot of GooglePay,paytm, etc).
-             This proof can be sent to our <b>email ID: forays@wmail.iitm.ac.in </b><br>
-             <b>6. </b> The participants may be asked to produce the proof of payment at the registration desk on the day of 
-             the event.
-              So it is suggested that all participants keep a copy of the same. <br>
-             <b>7.  Fee: </b> Rs. 100 per student (irrespective of the number of events) for college event registration
-              and Rs. 80 per student (irrespective of the number of events) for school event registration. <br><br>
-              <b>For any further query feel free to contact:<br>
-                Name: Shilpi Rani <br>
-              Mob No: 9871198669 </b> <br>
-              <a href="images/forays_poster.jpg"><b style='color: red'>Forays Poster</b></a>
 
-           </div>
+            <b>4.</b> Participants will have to upload the proof of payment (e.g. screenshot of GooglePay, PayTM etc.,) in the registration form.</b><br>
+            <b>5. </b> The participants may be asked to produce the proof of payment at the registration desk on the day of 
+            the event.
+              So it is suggested that all participants keep a copy of the same. <br>
+            <b>6. Registration Fee: </b>
+              <ul>
+                <li><b>College Event Registration </b> &nbsp;- &#8377; 200 per student (irrespective of the number of events)</li>
+                <li><b>School Event Registration &nbsp;</b> - &#8377; 150 per student (irrespective of the number of events)</li>
+              </ul>
+              <b>For any further queries, feel free to contact:<br>
+              Name: Siddhi Swapnil Pitale <br>
+              Mobile No: 8975966125 </b><br>
+          </div>
       </div>
     </div>
-
 
     <!-----------------------------------        Specific Rule Section        -->
 
@@ -172,33 +195,26 @@ Brimming with vigour and innovation, FORAYS 2020 aspires to take this success to
            <div class="intro-content">
             &emsp; &emsp;Please contact your respective School Office. School officials are strongly
             encouraged to provide a list of students mentioning the events in which they will take part.
-            Also online payment is strongly recommended. If your school is not participating or you want
-            to compete as an independent participant,<b> you can take part independently too
-            (online/on-spot registration).</b> On-the-spot registrations are also open on the day of
-             event between 6:30 a.m. to 9:00 a.m. <br><br>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdEJG3u8uNDQdvxoZW18lkbx-rkhG9U-xBm7JRmoWpVHeljEw/viewform"
-             class="waves-effect waves-light btn-small">Register Online</a>
+            Online payment is strongly recommended. <br><br>
+            <a href="https://docs.google.com/forms/d/18BAxmDzO64Y2Kornb5lDqMjsGCufMiPxkv7NUHnb0v4/"
+             class="waves-effect waves-light btn-small" target="_blank">Register Online</a>
            </div>
       </div>
       <div class="col s12 m12 l6">
         <div class="intro-heading">
-          Rules for colleges
+          Rules For Colleges
         </div>
         <div class="intro-content">
           &emsp; &emsp; Please contact Secretary/Office of your Department. College officials are strongly encouraged to 
-          provide a list of students, mentioning the events in which they will take part. Also online payment is 
-          strongly recommended. On-the-spot registrations are also open on the day of event between 7:00 a.m. to 8:30 a.m.
-           If your college is not participating or you want to compete as an independent participant, 
-           <b>you can also take part independently (online/on-spot registration)</b> <br><br>
+          provide a list of students, mentioning the events in which they will take part. Online payment is 
+          strongly recommended. <br><br>
 
-           <a href="https://docs.google.com/forms/d/e/1FAIpQLSdz5-vWg9gTNSs_vabdEyw8lMZ3Dfb8XClef7ye6wttkeKbQQ/viewform"
-             class="waves-effect waves-light btn-small">Register Online</a>
+           <a href="https://docs.google.com/forms/d/1iGilF36H1WLqYwRoe8ZIHebRiXwScY25xXerbHZoIo8/"
+             class="waves-effect waves-light btn-small" target="_blank">Register Online</a>
             
           </div>
       </div>
     </div>
-    
-
 
       <!--JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -211,16 +227,13 @@ Brimming with vigour and innovation, FORAYS 2020 aspires to take this success to
 
         // Slider
 
-         const sliDer = document.querySelector('.slider');
-         M.Slider.init(sliDer, {
-           indicators:false,
-           height:500,
-           transition:500,
-           interval:4000
-         });
-
-
-
+        const sliDer = document.querySelector('.slider');
+        M.Slider.init(sliDer, {
+          indicators:false,
+          height:500,
+          transition:500,
+          interval:4000
+        });
       </script>
     </body>
  </html>

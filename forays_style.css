@@ -7,24 +7,49 @@ h3{
     position: fixed;
     top:10px;
     left:110px;
-    border:4px solid #DC143C;
+    border:4px solid #202d40;
+    background-color: #202d40;
 }
 
 .slides img{
     opacity:1;
 }
 
+.bethere_college_date{
+  background-color:#202d40;
+  color:white;
+  position: relative;
+  top:-200px;
+  text-align:center;
+  z-index:2;
+  padding:15px;
+  font-weight:bold;
+  font-size:1.4em;
+}
+
+.bethere_school_date{
+  background-color:#202d40;
+  color:white;
+  position: relative;
+  top:-150px;
+  text-align:center;
+  z-index:2;
+  padding:15px;
+  font-weight:bold;
+  font-size:1.4em;
+}
+
+
 .bethere{
-    background-color:#DC143C;
+    background-color:#202d40;
     color:white;
     position: relative;
-    top:-150px;
+    top:-110px;
     text-align:center;
     z-index:2;
     padding:15px;
     font-weight:bold;
     font-size:1.4em;
-    border-left:50px solid white;
 }
 
 .intro, .contact, .spc_lec{
@@ -64,7 +89,7 @@ h3{
 .event-eligibility b{color:#483D8B}
 .event-discription b{color:#483D8B}
 
-#mobile-navbar{background-color:#483D8B; padding-top:50px;}
+#mobile-navbar{background-color:#202d40; padding-top:50px;}
 #mobile-navbar a{color:white;font-size:1.1em}
 
 .Schedule {
@@ -86,24 +111,24 @@ h3{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #483D8B;
+    background-color: #202d40;
     color: white;
   }
 
 .intro b{color:#483D8B}
-.sponsrs h5{color:red; text-align:center; margin-top:50px;}
+.sponsrs h5{color: #202d40; text-align:center; margin-top:50px;}
 .sponsrs .spns_img{margin-top:20px; text-align:center}
 .sponsrs .spns_cnt{font-weight:bold; padding:20px 0px 0px 30px;}
 .gal{margin-top:50px;}
 .gal_img{margin-top:10px}
-.abstract_heading{color:white; background-color:teal; text-align:center;padding:10px 0px 10px 0px; margin:0px}
+.abstract_heading{color:white; background-color:#202d40; text-align:center;padding:10px 0px 10px 0px; margin:0px}
 .abstract_content{padding:20px;}
 .ttl{float:left}
 .abs{margin-left:5px}
 .footer{margin:0px; color:white; background-color:#DC143C; width:100%; text-align:center; padding:10px 0px; font-size:.8em}
 @media screen and (max-width: 480px){
-    .bethere {font-size:1.1em; border-left:5px solid white;}
-    .logo{top:70px; left:20px; border:2px solid #DC143C; display:none}
+    .bethere {font-size:1.1em;}
+    .logo{top:70px; left:20px; border:2px solid #202d40; display:none}
     .intro, .contact{padding:30px 10px;}
     .intro-content{font-size:1.1em; padding-bottom:50px;}
     .contact-content, .spc_lec_col{width:100%; font-size:1.1em;text-align:justify;} 
@@ -113,11 +138,29 @@ h3{
     .events{padding:20px 5px}
     .event-name{font-size:1.2em; color:#483D8B}
     .event-discription{font-size:1.1em;}
-    .sponsrs h5{color:red; text-align:center; margin-top:20px;}
+    .sponsrs h5{color:#202d40; text-align:center; margin-top:20px;}
     .sponsrs .spns_img{margin-top:10px;}
     .sponsrs img{width:100%}
     .sponsrs .spns_cnt{padding:0px 0px 10px 10px; margin-top:10px}
     .gal{margin-top:20px}
     .gal_img{margin-top:10px}
     .abstract{margin:5px;width:97%}
+}
+
+.roboto-font-white{
+  font-family: Roboto, sans-serif;
+  color:white;
+}
+
+.roboto-font{
+  font-family: Roboto, sans-serif;
+}
+
+.temporary-banner{
+  font-weight:bold;
+  font-size:1.5em;
+  background-color:#F5F5F5;
+  padding:5px 15px;
+  color:#202d40;
+  margin-bottom:20px;
 }
